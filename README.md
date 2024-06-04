@@ -71,7 +71,7 @@ from yandex_reviews_parser.utils import YandexParser
 id_ya = 1234 #ID Компании Yandex
 parser = YandexParser(id_ya)
 
-reviews = parser.parse(type_parse='company') #Получаем список отзывов
+reviews = parser.parse(type_parse='reviews') #Получаем список отзывов
 ```
 ```json
 {
